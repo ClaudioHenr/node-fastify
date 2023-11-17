@@ -1,0 +1,29 @@
+POST http://localhost:3333/cars
+Content-Type: application/json
+
+{
+    "brand": "Ford",
+    "model": "Mustang Boss 429"
+}
+
+
+// Separador de requisições
+###
+
+GET http://localhost:3333/cars
+
+###
+
+PUT http://localhost:3333/car/2
+Content-Type: application/json
+
+{
+    "brand": "Ford",
+    "model": "Mustang 1978"
+}
+
+###
+
+DELETE http://localhost:3333/car/1
+
+
