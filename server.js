@@ -5,7 +5,8 @@ const databaseCars = new databasePostgres()
 
 const server = fastify()
 
-server.get('/', () => {
+server.get('/', (req, res) => {
+    console.send('Welcome...')
 })
 
 // Rota para criar
