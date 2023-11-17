@@ -4,7 +4,7 @@ sql`DROP TABLE IF EXISTS oldcar;`.then(() => console.log('Table droped'))
 
 sql`
     CREATE TABLE oldCar(
-        id SERIAL PRIMARY KEY, 
+        id SERIAL PRIMARY KEY,
         brand TEXT,
         model TEXT
     );
