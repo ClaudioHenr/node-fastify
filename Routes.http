@@ -1,4 +1,4 @@
-POST http://localhost:3333/cars
+POST https://learn-fastify.onrender.com/cars
 Content-Type: application/json
 
 {
@@ -10,11 +10,11 @@ Content-Type: application/json
 // Separador de requisições
 ###
 
-GET http://localhost:3333/cars
+GET https://learn-fastify.onrender.com/cars
 
 ###
 
-PUT http://localhost:3333/car/2
+PUT https://learn-fastify.onrender.com/car/2
 Content-Type: application/json
 
 {
@@ -24,6 +24,6 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/car/1
+DELETE https://learn-fastify.onrender.com/car/1
 
 
